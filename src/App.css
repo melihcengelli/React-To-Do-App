@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: fit-content;
+  margin-top:5rem;
+  
+}
+.textarea {
+  display: flex;
+  width: 100%-10em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#deleteicon:hover {
+  color: red;
+  cursor: pointer;
+}
+#deleteicon {
+  color: grey;
+}
+.todoinput {
+  width: 90%;
+}
+.todoinputbutton {
+  width: 10%;
+  align-items: center;
+  
+}
+#todobutton {
+  width: 90%;
+  height: 100%;
+  float: right;
+}
+#loopicon:hover {
+  cursor: pointer;
+  color:blue;
+}
+#loopicon {
+  color: grey;
+}
+.seeicon:hover {
+  color:blue;
+  cursor: pointer;
+}
+.seeicon {
+  color:grey;
+}
+
+
+
